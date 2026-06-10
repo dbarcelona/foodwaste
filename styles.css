@@ -175,6 +175,10 @@ h3 {
   color: var(--white);
 }
 
+.button.tertiary {
+  color: var(--accent-dark);
+}
+
 .section {
   padding: clamp(64px, 10vw, 128px) clamp(20px, 6vw, 84px);
 }
@@ -384,6 +388,43 @@ footer a {
   background: var(--field);
 }
 
+.documents {
+  background: var(--field);
+}
+
+.doc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+}
+
+.doc-grid a {
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 26px;
+  background: var(--paper);
+  text-decoration: none;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.doc-grid a:hover {
+  background: var(--ink);
+  color: var(--white);
+}
+
+.doc-grid span {
+  color: var(--accent);
+  font-weight: 900;
+}
+
+.doc-grid strong {
+  font-size: 1.25rem;
+  line-height: 1.15;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -431,7 +472,8 @@ footer p {
   .pricing-grid,
   .model-grid,
   .directory,
-  .process-band {
+  .process-band,
+  .doc-grid {
     grid-template-columns: 1fr;
   }
 
