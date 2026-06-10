@@ -479,6 +479,42 @@ footer a {
   line-height: 1.15;
 }
 
+.toolkit-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1fr);
+  gap: clamp(24px, 6vw, 80px);
+  padding: 46px clamp(20px, 6vw, 84px);
+  border-bottom: 1px solid var(--line);
+}
+
+.toolkit-heading h2 {
+  font-size: clamp(1.7rem, 3vw, 3.1rem);
+}
+
+.tool-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+}
+
+.tool-list a {
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  background: var(--white);
+  color: var(--accent-dark);
+  font-weight: 900;
+  text-decoration: none;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.tool-list a:hover {
+  background: var(--ink);
+  color: var(--white);
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -518,6 +554,7 @@ footer p {
   .split,
   .two-col,
   .faq-list article,
+  .toolkit-section,
   .timeline article {
     grid-template-columns: 1fr;
   }
@@ -528,7 +565,8 @@ footer p {
   .model-grid,
   .directory,
   .process-band,
-  .doc-grid {
+  .doc-grid,
+  .tool-list {
     grid-template-columns: 1fr;
   }
 

@@ -8,6 +8,7 @@ The concept starts in Oakland, then expands to San Francisco. It focuses on reco
 
 - `index.html`: landing page and core value proposition
 - `pilot.html`: pilot inquiry page and static email form
+- `toolkit.html`: public founder toolkit and data-room index
 - `story.html`: polished founder journey
 - `companies.html`: page for companies ordering catering
 - `caterers.html`: page for caterers and event teams

@@ -1,0 +1,13 @@
+metric,definition,target_for_first_90_days,data_source,review_frequency
+Pickups completed,Number of successful donor-to-recipient deliveries,5 to 10,Pickup log,Weekly
+Pounds recovered,Approximate donation weight recovered,500+ or validated baseline,Pickup log and recipient confirmation,Weekly
+Recipient usable-food rate,Percent of delivered food recipient could use,80%+,Recipient feedback,After each pickup
+Food refused,Quantity or count of items refused for safety/fit,Track baseline,Pickup log,After each pickup
+Average pickup duration,Time from driver arrival to departure,Under 20 minutes,Driver log,Weekly
+Average route duration,Pickup start to delivery completion,Under 90 minutes,Driver log,Weekly
+Cost per pickup,Direct operating cost per pickup,Under pilot fee,Financial model,Monthly
+Revenue per pickup,Collected revenue divided by pickups,Validate willingness to pay,Invoices,Monthly
+Donor satisfaction,Qualitative score after pickup,4/5+,Post-pickup survey,After each pickup
+Recipient satisfaction,Qualitative score after delivery,4/5+,Recipient survey,After each pickup
+Repeat intent,Donor willingness to schedule another pickup,At least 1 repeat donor,Interview notes,Monthly
+Partner interviews completed,Discovery conversations across donors/caterers/recipients,30 total,CRM tracker,Weekly

@@ -1,0 +1,13 @@
+risk,category,likelihood,impact,early_warning,mitigation,owner,status
+Unsafe food accepted,Food safety,Medium,High,Unclear holding history or packaging,Strict refusal policy and logs,Founder,Open
+Recipient cannot use donation,Operations,Medium,Medium,Last-minute capacity mismatch,Confirm before pickup and track usefulness,Founder,Open
+Company unwilling to pay,Revenue,High,High,Pilot interest but no budget owner,Test pricing with workplace/event leads,Founder,Open
+Liability concern blocks donor,Legal,Medium,High,Procurement asks for insurance/legal docs,Attorney-reviewed agreements and insurance,Founder,Open
+Pickup costs exceed revenue,Finance,Medium,High,High drive time per pound recovered,Route density and minimum fees,Founder,Open
+Volunteer reliability issue,Operations,Medium,Medium,Missed or late pickups,Use founder/paid driver for first pilots,Founder,Open
+Donation dumping,Partner trust,Medium,High,Donor offers unusable food repeatedly,Accepted-food schedule and refusal rights,Founder,Open
+Overclaiming impact,Reputation,Medium,High,Metrics lack methodology,Use conservative estimates and cite methodology,Founder,Open
+No recipient partner for hot food,Partner capacity,Medium,High,Partners accept only packaged/cold food,Start with lower-risk food categories,Founder,Open
+Food storage need emerges,Operations,Medium,Medium,Pickup and delivery windows do not align,No overnight storage in pilot,Founder,Open
+Grant ineligibility,Funding,Medium,Medium,For-profit entity excluded,Use fiscal sponsor or focus paid pilots,Founder,Open
+Brand confusion with existing orgs,Market,Low,Medium,Partners think service competes with them,Position as donor-side logistics support,Founder,Open
