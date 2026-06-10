@@ -338,6 +338,60 @@ footer a {
   font-size: 1.05rem;
 }
 
+.faq-list {
+  padding: 32px clamp(20px, 6vw, 84px) 96px;
+}
+
+.faq-list article {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1fr);
+  gap: clamp(24px, 6vw, 80px);
+  padding: 34px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.faq-list h2 {
+  font-size: clamp(1.45rem, 3vw, 2.7rem);
+}
+
+.faq-list p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.intake-form {
+  display: grid;
+  gap: 16px;
+}
+
+.intake-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.intake-form input,
+.intake-form select,
+.intake-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  padding: 12px 13px;
+}
+
+.intake-form textarea {
+  resize: vertical;
+}
+
+.form-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .pricing {
   background: var(--field);
 }
@@ -463,6 +517,7 @@ footer p {
   .intro,
   .split,
   .two-col,
+  .faq-list article,
   .timeline article {
     grid-template-columns: 1fr;
   }

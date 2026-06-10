@@ -7,12 +7,19 @@ The concept starts in Oakland, then expands to San Francisco. It focuses on reco
 ## Site pages
 
 - `index.html`: landing page and core value proposition
+- `pilot.html`: pilot inquiry page and static email form
 - `story.html`: polished founder journey
 - `companies.html`: page for companies ordering catering
 - `caterers.html`: page for caterers and event teams
 - `resources.html`: Bay Area food recovery and food access directory
 - `plan.html`: working business plan and validation questions
+- `faq.html`: safety, entity, donation receipt, and operating FAQ
 - `styles.css`: shared styling
+- `scripts.js`: static mailto form behavior
+
+## Planning documents
+
+The `docs/` folder includes the business plan, entity roadmap, market research, operating playbook, pilot package, forms/logs, pitch materials, research databases, and outreach templates.
 
 ## GitHub Pages
 

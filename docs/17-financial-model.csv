@@ -1,0 +1,6 @@
+scenario,pickups_per_month,avg_revenue_per_pickup,monthly_subscription_revenue,equipment_revenue,total_monthly_revenue,driver_coordination_cost_per_pickup,other_monthly_costs,total_monthly_costs,estimated_monthly_margin,notes
+Pilot low,4,150,0,0,600,90,250,610,-10,Founder-led with basic costs only
+Pilot base,8,150,500,150,1850,85,500,1180,670,One monthly customer plus ad hoc pickups
+Pilot high,16,175,1500,300,4600,80,900,2180,2420,Requires reliable dispatch and recipient capacity
+Event package,4,350,0,500,1900,140,450,1010,890,Fewer higher-value event recoveries
+Sponsored route,12,125,2500,0,4000,85,800,1820,2180,Community route underwritten by corporate sponsor
